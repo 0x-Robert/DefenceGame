@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <CylinderTarget name="testdefense" sideLength="1.000000"/>
+        <CylinderTarget name="TestSoda" sideLength="1.000000"/>
+        <ImageTarget name="junc" size="1.000000 1.025815"/>
+        <ImageTarget name="ARCAR" size="1.000000 0.433594"/>
+        <ImageTarget name="FlakeBox.Back" size="0.900000 1.200000"/>
+        <ImageTarget name="FlakeBox.Front" size="0.900000 1.200000"/>
+        <ImageTarget name="FlakeBox.Right" size="0.600000 1.200000"/>
+        <ImageTarget name="FlakeBox.Left" size="0.600000 1.200000"/>
+        <ImageTarget name="FlakeBox.Bottom" size="0.900000 0.599414"/>
+        <ImageTarget name="FlakeBox.Top" size="0.900000 0.599414"/>
+        <MultiTarget name="FlakeBox">
+            <Part name="FlakeBox.Left" translation="-0.44999998807907104 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="FlakeBox.Right" translation="0.44999998807907104 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="FlakeBox.Front" translation="0 0 0.30000001192092896" rotation="AD: 1 0 0 0"/>
+            <Part name="FlakeBox.Back" translation="0 0 -0.30000001192092896" rotation="AD: 0 1 0 180"/>
+            <Part name="FlakeBox.Top" translation="0 0.6000000238418579 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="FlakeBox.Bottom" translation="0 -0.6000000238418579 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
